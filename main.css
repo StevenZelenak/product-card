@@ -1,3 +1,29 @@
 body {
-    background-color: aqua;
+    background-color: red;
+}
+
+.invisChild {
+    flex: 1 30%;
+    height: 100px;
+    margin: 11px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    justify-content: center;
+    flex-direction: row;
+    
+    
+}
+
+.productCard {
+    
+    
+    flex: 1 30%;
+    height: 100px;
+    margin: 10px;
+    border: lightblue 1px solid;
+    background-color: white;
 }
