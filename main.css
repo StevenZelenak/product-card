@@ -2,45 +2,85 @@ body {
     background-color: white;
 }
 
-.availableBackground {
-    color: yellow;
-    background-color: RGB(128,128,128);
-}
-
+/* border around top of card */
 .topCardBorder {
     border: 1px gray dotted;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
+/* align the h2 to center */
 .productCard h2 {
     text-align: center;
 }
 
+/* center the image */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
 
+/* justifies the p text */
+.justifyText {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
+/* background for if available */
+.availableBackground {
+    width: auto;
+    padding: 2px 2px 2px 2px;
+    color: yellow;
+    background-color: RGB(128,128,128);
+}
+
+.bold {
+    font-weight: 800;
+}
+
+/* the flex container */
 .flexContainer {
     display: flex;
     flex-wrap: wrap;
     align-items: normal;
     justify-content: center;
     flex-direction: row;
-
-
 }
 
-
-
+/* style for the cards */
 .productCard {
-
-
     flex: 0 0 30%;
     margin: 10px;
     border: lightblue 1px solid;
     background-color: white;
+    box-shadow: 8px 3px 3px grey;
 }
+
+/* get rid of dots on list */
+ul {
+    
+    margin-top: 0;
+    list-style-type: none;
+    padding: 0px 0px 0px 20px;
+    
+}
+ 
+
+footer h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header h3 {
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section.change ul.bold {
+    margin-bottom: 0;
+}
+
+
