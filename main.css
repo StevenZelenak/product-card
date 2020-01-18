@@ -1,15 +1,29 @@
 body {
     background-color: white;
+    color: #FFFFFF;
 }
 
 /* border around top of card */
 .topCardBorder {
     border: 1px gray dotted;
+    border-radius: 10px;
+    background: #512DA8;
 }
 
 /* align the h2 to center */
 .productCard h2 {
     text-align: center;
+    color: #212121;
+}
+
+.parent{
+    position: relative;
+}
+.over-img{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
 }
 
 /* center the image */
@@ -33,7 +47,7 @@ img {
     width: auto;
     padding: 2px 2px 2px 2px;
     color: yellow;
-    background-color: RGB(128,128,128);
+    background: #512DA8;
 }
 
 .bold {
@@ -54,19 +68,32 @@ img {
     flex: 0 0 30%;
     margin: 10px;
     border: lightblue 1px solid;
-    background-color: white;
+    background: #673AB7;
     box-shadow: 8px 3px 3px grey;
+    border-radius: 10px;
 }
+
+@media (max-width: 750px) {
+    .productCard {
+      flex: 2 100%;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .productCard {
+      flex: 1 46%;
+    }
+  }
 
 /* get rid of dots on list */
 ul {
-    
+
     margin-top: 0;
     list-style-type: none;
     padding: 0px 0px 0px 20px;
-    
+
 }
- 
+
 
 footer h6 {
     margin-top: 0;
@@ -74,6 +101,7 @@ footer h6 {
 }
 
 header h3 {
+    color: #212121;
     margin-left: 10px;
     margin-top: 0;
     margin-bottom: 0;
@@ -82,5 +110,3 @@ header h3 {
 section.change ul.bold {
     margin-bottom: 0;
 }
-
-
