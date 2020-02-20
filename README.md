@@ -9,7 +9,7 @@ Everything on this page is created with vanilla html, css, and js.
 
 ## Screenshots
 
-![Main Screen](./Screenshots/shot1.png)
+![Main Screen](./Screenshots/Shot1.png)
 
 ## How to Run
 
